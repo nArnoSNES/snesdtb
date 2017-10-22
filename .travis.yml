@@ -1,0 +1,18 @@
+language: c
+
+addons:
+  apt:
+    packages:
+    - unzip
+
+script: make
+
+deploy:
+  provider: releases
+  api-key:
+    - secure: "cA2huhNNhTcp8lM5r1NU8gs3Cwt/fDbR18ttnBKPmax6k9qAL1RKz8Wdnz8vy7FOcB6ecmSzn6G5LyJierbVVgISnfoMtS07O7bLHMVYzi0w9okmZTdcGt76kVqoTIfXjk9+jU/yq16Afk3YbVN5WG0gDxIAt9Y9gM8YmYVlfmigATpsTcezE3886vv4+d524lQnWqVf7/7Ba34j2R2RUJQI+3YBdoqGBm79gtGnl5mjNI+T55PK9KW5SQdh6LmXmlxzVoO2A4ZgK0nLEAYdzlFJn1R4JAXu7RwGQ39ciT8fnvOChx8hL6josJKgTJNT8mTKURHt4sEevAKDDygXUOSV2CSB6iKJpcEBVZjJTqrAeOFB2TqwSG89mlZCe5fCRlO8ns652dMp06f1gs1ikfM4kb3u1toBwd3gSO6IJxRvFJh6ai0PFLy17p7pysSykZpE3naKbomDPkqdUTd8DYDXbtQPaeREzO9Zd+XefTGDxdbs1HPO3FgrlQMfXCri2rV00Funnb2aMQya5oo6hz9ryTJ3VMiBCKpxkCIWxtGmVPKaMlejJn/Yg45PuN4dbPNFEhm8PbFMsfcllJXVyumEEBmY6HlWtwHCv3XUzVPG7WjpZRmXTHrNRkrSGQgW/9/LRNO7spfReSkugVSxh5AI6TuN0ZKOq3i6S2pokcw="
+  file_glob: true
+  file: '*.deb'
+  skip_cleanup: true
+  on:
+tags: true
