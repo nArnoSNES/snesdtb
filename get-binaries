@@ -1,0 +1,9 @@
+#!/bin/bash
+mkdir -p downloads
+for f in $(cat binaries.txt); do wget -P downloads $f; done
+cd downloads/
+unzip 816-tcc.zip
+rm -f 816-tcc.zip
+chmod +x *
+cd ..
+ 

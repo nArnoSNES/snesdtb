@@ -1,0 +1,10 @@
+Package: snesdtb
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: amd64
+Depends: python (>= 2.7.5)
+Maintainer: n_Arno <aquedesin@gmail.com>
+Description: Snes Dev Tool Belt
+ Compiled binaries from snes-sdk and pvsneslib
+ all automagically packaged!

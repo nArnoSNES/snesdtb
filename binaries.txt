@@ -1,0 +1,9 @@
+https://github.com/nArnoSNES/wla-dx/releases/download/v9.7b/wla-65816
+https://github.com/nArnoSNES/wla-dx/releases/download/v9.7b/wlalink
+https://github.com/nArnoSNES/snesbrr/releases/download/v1.0/snesbrr
+https://github.com/nArnoSNES/tcc-65816/releases/download/0.9.23/816-tcc.zip
+https://github.com/nArnoSNES/snestools/releases/download/v1.0/bin2txt
+https://github.com/nArnoSNES/snestools/releases/download/v1.0/constify
+https://github.com/nArnoSNES/snestools/releases/download/v1.0/gfx2snes
+https://github.com/nArnoSNES/snestools/releases/download/v1.0/smconv
+https://github.com/nArnoSNES/snestools/releases/download/v1.0/snestools
