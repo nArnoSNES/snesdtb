@@ -1,5 +1,5 @@
 packagename := snesdtb
-packageversion := 1.0-1
+packageversion := 1.0-2
 fullname := $(packagename)_$(packageversion)
 
 $(fullname).deb: build downloads
