@@ -1,5 +1,5 @@
-https://github.com/nArnoSNES/wla-dx-65816/releases/download/v9.5/wla-65816
-https://github.com/nArnoSNES/wla-dx-65816/releases/download/v9.5/wlalink
+https://github.com/nArnoSNES/wla-dx-65816/releases/download/v9.4/wla-65816
+https://github.com/nArnoSNES/wla-dx-65816/releases/download/v9.4/wlalink
 https://github.com/nArnoSNES/snesbrr/releases/download/v1.0/snesbrr
 https://github.com/nArnoSNES/tcc-65816/releases/download/0.9.23/816-tcc.zip
 https://github.com/nArnoSNES/snestools/releases/download/v1.0/bin2txt
